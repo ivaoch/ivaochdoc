@@ -1,2 +1,56 @@
+# Project info
 site_name: IVAO Switzerland Documentation
 theme: 'material'
+site_author: Gianluca Belardinelli for IVAO Switzerland
+site_url: https://ivaoch.github.io/ivaochdoc/
+
+# Theme
+extra:
+  palette:
+    primary: 'red'
+    accent: 'light blue'
+  social:
+    - type: 'facebook'
+      link: 'https://www.facebook.com/IVAO.Switzerland'
+      
+# Repository
+repo_name: ivaoch/ivaochdoc
+
+# Copyright
+copyright: 'Copyright &copy; 2017 IVAO Switzerland'
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite(guess_lang=false)
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - pymdownx.arithmatex
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+  - admonition
+  - codehilite(guess_lang=false)
+  - toc(permalink=true)
+
+
+
+# Pages
+      
+pages:
+  - Index: index.md
+  - Getting started: start.md
+  - Quickstart:
+    - ATC Positions: quickstart/atc_position.md
+    - ATIS: quickstart/atis.md
+    - Airspaces: quickstart/airspaces.md
+    - Regional Aerodrome: quickstart/regaerodrome.md
+  
