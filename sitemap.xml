@@ -3,7 +3,15 @@
 
     
     <url>
-     <loc>/</loc>
+     <loc>https://ivaoch.github.io/ivaochdoc//</loc>
+     <lastmod>2017-05-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>https://ivaoch.github.io/ivaochdoc//start/</loc>
      <lastmod>2017-05-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
