@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to IVAO Switzerland\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help messageeeeeeeeeeeeeeeee.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Home"
+            "text": "Welcome to IVAO Switzerland\n ATC Doc\n\u00b6\n\n\nDo not forget to also view our website \nivao.ch\n.\n\n\n\n\nCommands\n\u00b6\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help messageeeeeeeeeeeeeeeee.\n\n\n\n\nProject layout\n\u00b6\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Index"
         },
         {
-            "location": "/#welcome-to-ivao-switzerland",
-            "text": "For full documentation visit  mkdocs.org .",
-            "title": "Welcome to IVAO Switzerland"
+            "location": "/#welcome-to-ivao-switzerland-atc-doc",
+            "text": "Do not forget to also view our website  ivao.ch .",
+            "title": "Welcome to IVAO Switzerland ATC Doc"
         },
         {
             "location": "/#commands",
@@ -22,8 +22,8 @@
         },
         {
             "location": "/start/",
-            "text": "Quickstart\n\n\nLorem Ipsum....\nLorem Ipsum....\n\n\nCommands",
-            "title": "QuickStart"
+            "text": "Quickstart\n\u00b6\n\n\nLorem Ipsum....\nLorem Ipsum....\n\n\nCommands\n\u00b6\n\n\n\n\nTip\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod\nnulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor\nmassa, nec semper lorem quam in massa.\n\n\n\n\n\n\nWarning\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod\nnulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor\nmassa, nec semper lorem quam in massa.",
+            "title": "Getting started"
         },
         {
             "location": "/start/#quickstart",
@@ -32,8 +32,28 @@
         },
         {
             "location": "/start/#commands",
-            "text": "",
+            "text": "Tip  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod\nnulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor\nmassa, nec semper lorem quam in massa.    Warning  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod\nnulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor\nmassa, nec semper lorem quam in massa.",
             "title": "Commands"
+        },
+        {
+            "location": "/quickstart/atc_position/",
+            "text": "",
+            "title": "ATC Positions"
+        },
+        {
+            "location": "/quickstart/atis/",
+            "text": "",
+            "title": "ATIS"
+        },
+        {
+            "location": "/quickstart/airspaces/",
+            "text": "",
+            "title": "Airspaces"
+        },
+        {
+            "location": "/quickstart/regaerodrome/",
+            "text": "",
+            "title": "Regional Aerodrome"
         }
     ]
 }

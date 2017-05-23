@@ -17,4 +17,32 @@
     </url>
     
 
+    
+        
+    <url>
+     <loc>https://ivaoch.github.io/ivaochdoc//quickstart/atc_position/</loc>
+     <lastmod>2017-05-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://ivaoch.github.io/ivaochdoc//quickstart/atis/</loc>
+     <lastmod>2017-05-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://ivaoch.github.io/ivaochdoc//quickstart/airspaces/</loc>
+     <lastmod>2017-05-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://ivaoch.github.io/ivaochdoc//quickstart/regaerodrome/</loc>
+     <lastmod>2017-05-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
 </urlset>

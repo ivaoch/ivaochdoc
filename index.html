@@ -78,7 +78,7 @@
             
               
             
-            Home
+            Index
           
         </span>
       </div>
@@ -152,11 +152,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="toc">
-        Home
+        Index
       </label>
     
-    <a href="." title="Home" class="md-nav__link md-nav__link--active">
-      Home
+    <a href="." title="Index" class="md-nav__link md-nav__link--active">
+      Index
     </a>
     
       
@@ -198,9 +198,81 @@
 
 
   <li class="md-nav__item">
-    <a href="start/" title="QuickStart" class="md-nav__link">
-      QuickStart
+    <a href="start/" title="Getting started" class="md-nav__link">
+      Getting started
     </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Quickstart
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Quickstart
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="quickstart/atc_position/" title="ATC Positions" class="md-nav__link">
+      ATC Positions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="quickstart/atis/" title="ATIS" class="md-nav__link">
+      ATIS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="quickstart/airspaces/" title="Airspaces" class="md-nav__link">
+      Airspaces
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="quickstart/regaerodrome/" title="Regional Aerodrome" class="md-nav__link">
+      Regional Aerodrome
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
     
@@ -253,21 +325,22 @@
               
                 
                 
-                <h1 id="welcome-to-ivao-switzerland">Welcome to IVAO Switzerland</h1>
-<p>For full documentation visit <a href="http://mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+                <h1 id="welcome-to-ivao-switzerland-atc-doc">Welcome to IVAO Switzerland<small> ATC Doc</small><a class="headerlink" href="#welcome-to-ivao-switzerland-atc-doc" title="Permanent link">&para;</a></h1>
+<p>Do not forget to also view our website <a href="http://ivao.ch">ivao.ch</a>.</p>
+<p><img alt="IvAc2" src="./images/ivac2.png" /></p>
+<h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h2>
 <ul>
 <li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
 <li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
 <li><code>mkdocs build</code> - Build the documentation site.</li>
 <li><code>mkdocs help</code> - Print this help messageeeeeeeeeeeeeeeee.</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
+<h2 id="project-layout">Project layout<a class="headerlink" href="#project-layout" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span>mkdocs.yml    # The configuration file.
 docs/
     index.md  # The documentation homepage.
     ...       # Other markdown pages, images and other files.
-</code></pre>
+</pre></div>
                 
                   
                 
@@ -287,13 +360,13 @@ docs/
       <nav class="md-footer-nav__inner md-grid">
         
         
-          <a href="start/" title="QuickStart" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="start/" title="Getting started" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                QuickStart
+                Getting started
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -308,6 +381,10 @@ docs/
     <div class="md-footer-meta__inner md-grid">
       <div class="md-footer-copyright">
         
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2017 IVAO Switzerland
+          </div>
+        
         powered by
         <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
         and
@@ -316,6 +393,14 @@ docs/
       </div>
       
         
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://www.facebook.com/IVAO.Switzerland" class="md-footer-social__link fa fa-facebook"></a>
+    
+  </div>
+
       
     </div>
   </div>
