@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>https://ivaoch.github.io//</loc>
+     <loc>https://ivaoch.github.io/ivaochdoc//</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -11,7 +11,7 @@
 
     
     <url>
-     <loc>https://ivaoch.github.io//start/</loc>
+     <loc>https://ivaoch.github.io/ivaochdoc//start/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -20,47 +20,25 @@
     
         
     <url>
-     <loc>https://ivaoch.github.io//quickstart/atc_position/</loc>
+     <loc>https://ivaoch.github.io/ivaochdoc//quickstart/atc_position/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://ivaoch.github.io//quickstart/atis/</loc>
+     <loc>https://ivaoch.github.io/ivaochdoc//quickstart/atis/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://ivaoch.github.io//quickstart/airspaces/</loc>
+     <loc>https://ivaoch.github.io/ivaochdoc//quickstart/airspaces/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://ivaoch.github.io//quickstart/regaerodrome/</loc>
-     <lastmod>2017-05-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>https://ivaoch.github.io//swissradar/loas/</loc>
-     <lastmod>2017-05-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://ivaoch.github.io//swissradar/overview/</loc>
-     <lastmod>2017-05-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://ivaoch.github.io//swissradar/procedures/</loc>
+     <loc>https://ivaoch.github.io/ivaochdoc//quickstart/regaerodrome/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -70,13 +48,35 @@
     
         
     <url>
-     <loc>https://ivaoch.github.io//zurichfir/zurichfir/</loc>
+     <loc>https://ivaoch.github.io/ivaochdoc//swissradar/loas/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://ivaoch.github.io/</loc>
+     <loc>https://ivaoch.github.io/ivaochdoc//swissradar/overview/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://ivaoch.github.io/ivaochdoc//swissradar/procedures/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://ivaoch.github.io/ivaochdoc//zurichfir/zurichfir/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://ivaoch.github.io/ivaochdoc/</loc>
      <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -86,13 +86,13 @@
     
         
     <url>
-     <loc>https://ivaoch.github.io//genevafir/genevafir/</loc>
+     <loc>https://ivaoch.github.io/ivaochdoc//genevafir/genevafir/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://ivaoch.github.io/</loc>
+     <loc>https://ivaoch.github.io/ivaochdoc/</loc>
      <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
