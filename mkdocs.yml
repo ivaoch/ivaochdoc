@@ -2,11 +2,9 @@
 site_name: IVAO Switzerland Documentation
 theme: 'material'
 site_author: Gianluca Belardinelli for IVAO Switzerland
-site_url: https://ivaoch.github.io/
+site_url: https://ivaoch.github.io/ivaochdoc/
 edit_uri: edit/master/docs/
 
-repo_name: ivaoch/ivaochdoc
-repo_url: https://github.com/ivaoch/ivaochdoc
 # Theme
 extra:
   palette:
@@ -21,6 +19,7 @@ extra:
       
 # Repository
 repo_name: ivaoch/ivaochdoc
+repo_url: https://github.com/ivaoch/ivaochdoc
 
 # Copyright
 copyright: 'Copyright &copy; 2017 IVAO Switzerland'
@@ -47,10 +46,7 @@ markdown_extensions:
   - codehilite(guess_lang=false)
   - toc(permalink=true)
 
-
-
-# Pages
-      
+# Pages   
 pages:
   - Index: index.md
   - Getting started: start.md
