@@ -2,7 +2,7 @@
 
 Do not forget to also view our website [ivao.ch](http://ivao.ch).
 
-<p align="center"> 
+<p align="center">  
 <img src="images/logo.png">
 </p>
 
