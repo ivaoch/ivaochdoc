@@ -2,23 +2,13 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to IVAO Switzerland\n ATC Doc\n\u00b6\n\n\nDo not forget to also view our website \nivao.ch\n.\n\n\n\n\nCommands\n\u00b6\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help messageeeeeeeeeeeeeeeee.\n\n\n\n\nProject layout\n\u00b6\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "text": "Welcome to IVAO Switzerland\n ATC Doc\n\u00b6\n\n\nDo not forget to also view our website \nivao.ch\n.",
             "title": "Index"
         },
         {
             "location": "/#welcome-to-ivao-switzerland-atc-doc",
             "text": "Do not forget to also view our website  ivao.ch .",
             "title": "Welcome to IVAO Switzerland ATC Doc"
-        },
-        {
-            "location": "/#commands",
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help messageeeeeeeeeeeeeeeee.",
-            "title": "Commands"
-        },
-        {
-            "location": "/#project-layout",
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Project layout"
         },
         {
             "location": "/start/",
@@ -42,8 +32,18 @@
         },
         {
             "location": "/quickstart/atis/",
-            "text": "",
+            "text": "ATIS has to be identical across different ATC stations of the same airport, always. Tower controller is the leader regarding ATIS.\n\n\nATIS ON IVAC2\n\u00b6\n\n\nThe ATIS window has 8 different spaces to be filled. \n\n\nAirport\n. Insert the ICAO of the airport you are actually controlling.\n\n\nATIS\n. \n\n\nTYPE\n. Select ARR/DEP is the same runway is used for both operations.\n\n\nAPPROACH\n\n\nRWY\n sdfdsf\n\n\nCONDITION\n \n\n\nRVR\n\n\nREMARKS\n\u00b6\n\n\nGenerally OPS Text Allowed:\n\n\nDATALINK CLEARANCE AVBL\n\n\nGRASS RWY CLSD\n\n\nGRASS RWY AVLB\n\n\nLOW VISIBILITY PROCEDURE ACTIVE\n\n\n(SEV/MOD) ICEING (TURBULENCE) REPORTED (FCST) (AT XXXX) BETWEEN FLXX AND FLXXX\n\n\nSECTOR BRAVO BRAVO ACT\n\n\nNot accepted:\n\n\n[YourName] is your ATC\nReport unable rwy 28\n\n\nVisit my personal facebook page\nEnglish / French / German / Italian / Latin\nReport unable to taxi\nEtc.",
             "title": "ATIS"
+        },
+        {
+            "location": "/quickstart/atis/#atis-on-ivac2",
+            "text": "The ATIS window has 8 different spaces to be filled.   Airport . Insert the ICAO of the airport you are actually controlling.  ATIS .   TYPE . Select ARR/DEP is the same runway is used for both operations.  APPROACH  RWY  sdfdsf  CONDITION    RVR",
+            "title": "ATIS ON IVAC2"
+        },
+        {
+            "location": "/quickstart/atis/#remarks",
+            "text": "Generally OPS Text Allowed:  DATALINK CLEARANCE AVBL  GRASS RWY CLSD  GRASS RWY AVLB  LOW VISIBILITY PROCEDURE ACTIVE  (SEV/MOD) ICEING (TURBULENCE) REPORTED (FCST) (AT XXXX) BETWEEN FLXX AND FLXXX  SECTOR BRAVO BRAVO ACT  Not accepted:  [YourName] is your ATC\nReport unable rwy 28  Visit my personal facebook page\nEnglish / French / German / Italian / Latin\nReport unable to taxi\nEtc.",
+            "title": "REMARKS"
         },
         {
             "location": "/quickstart/airspaces/",
@@ -54,6 +54,81 @@
             "location": "/quickstart/regaerodrome/",
             "text": "",
             "title": "Regional Aerodrome"
+        },
+        {
+            "location": "/swissradar/loas/",
+            "text": "",
+            "title": "LOAs"
+        },
+        {
+            "location": "/swissradar/overview/",
+            "text": "",
+            "title": "Overview"
+        },
+        {
+            "location": "/swissradar/procedures/",
+            "text": "",
+            "title": "Procedures"
+        },
+        {
+            "location": "/zurichfir/zurichfir/",
+            "text": "",
+            "title": "Overview"
+        },
+        {
+            "location": "/zurichfir/airports/lsza/",
+            "text": "",
+            "title": "Lugano (LSZA)"
+        },
+        {
+            "location": "/zurichfir/airports/lszb/",
+            "text": "",
+            "title": "Bern (LSZB)"
+        },
+        {
+            "location": "/zurichfir/airports/lszg/",
+            "text": "",
+            "title": "Grenchen (LSZG)"
+        },
+        {
+            "location": "/zurichfir/airports/lszh/",
+            "text": "",
+            "title": "Z\u00fcrich (LSZH)"
+        },
+        {
+            "location": "/zurichfir/airports/lszr/",
+            "text": "",
+            "title": "St. Gallen (LSZR)"
+        },
+        {
+            "location": "/zurichfir/airports/lszs/",
+            "text": "",
+            "title": "Samedan (LSZS)"
+        },
+        {
+            "location": "/zurichfir/airports/edny/",
+            "text": "",
+            "title": "Friedrichshafen (EDNY)"
+        },
+        {
+            "location": "/genevafir/genevafir/",
+            "text": "",
+            "title": "Overview"
+        },
+        {
+            "location": "/genevafir/airports/lsgc/",
+            "text": "",
+            "title": "Les Eplatures (LSGC)"
+        },
+        {
+            "location": "/genevafir/airports/lsgg/",
+            "text": "",
+            "title": "Geneva (LSGG)"
+        },
+        {
+            "location": "/genevafir/airports/lsgs/",
+            "text": "",
+            "title": "Sion (LSGS)"
         }
     ]
 }
