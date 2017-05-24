@@ -76,7 +76,7 @@ The Airborne labels are composed of following categories:
 
 We will cover all of them in this document, as the labels we have in IVAC2 have nothing to do with the ones of IVAC1.
 
-General knowledge about labels
+General knowledge about labelssssss   
 
 Extended label: You will notice quite fast that you have more or less information on a label depending if you hover your mouse on it or not. This is called the extended label.
 
