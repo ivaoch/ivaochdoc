@@ -2,8 +2,11 @@
 site_name: IVAO Switzerland Documentation
 theme: 'material'
 site_author: Gianluca Belardinelli for IVAO Switzerland
-site_url: https://ivaoch.github.io/ivaochdoc/
+site_url: https://ivaoch.github.io/
+edit_uri: edit/master/docs/
 
+repo_name: ivaoch/ivaochdoc
+repo_url: https://github.com/ivaoch/ivaochdoc
 # Theme
 extra:
   palette:
@@ -12,6 +15,9 @@ extra:
   social:
     - type: 'facebook'
       link: 'https://www.facebook.com/IVAO.Switzerland'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
       
 # Repository
 repo_name: ivaoch/ivaochdoc
@@ -53,4 +59,24 @@ pages:
     - ATIS: quickstart/atis.md
     - Airspaces: quickstart/airspaces.md
     - Regional Aerodrome: quickstart/regaerodrome.md
+  - Swiss Radar:
+    - LOAs: swissradar/loas.md
+    - Overview: swissradar/overview.md
+    - Procedures: swissradar/procedures.md
+  - Zürich FIR:
+    - Overview: zurichfir/zurichfir.md
+    - Airports:
+      - Lugano (LSZA): zurichfir/airports/lsza.md
+      - Bern (LSZB): zurichfir/airports/lszb.md
+      - Grenchen (LSZG): zurichfir/airports/lszg.md
+      - Zürich (LSZH): zurichfir/airports/lszh.md
+      - St. Gallen (LSZR): zurichfir/airports/lszr.md
+      - Samedan (LSZS): zurichfir/airports/lszs.md
+      - Friedrichshafen (EDNY): zurichfir/airports/edny.md
+  - Geneva FIR:
+    - Overview: genevafir/genevafir.md
+    - Airports:
+      - Les Eplatures (LSGC): genevafir/airports/lsgc.md
+      - Geneva (LSGG): genevafir/airports/lsgg.md
+      - Sion (LSGS): genevafir/airports/lsgs.md
   
