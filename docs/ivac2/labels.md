@@ -161,6 +161,8 @@ A double click on the callsign will assume the label.
 
 <img src="airborne_concerned_format.jpg">
 
+<img src="airborne_concerned.jpg"> <img src="airborne_concerned_ex.jpg">
+
 <u>Need to know</u>
 
 **AFL** is the actual Flight Level.
