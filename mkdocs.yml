@@ -75,5 +75,11 @@ pages:
       - Les Eplatures (LSGC): genevafir/airports/lsgc.md
       - Geneva (LSGG): genevafir/airports/lsgg.md
       - Sion (LSGS): genevafir/airports/lsgs.md
-  - IVAC2: ivac2/index.md
-    
+  - IVAC2:
+    - Introduction: ivac2/introduction.md
+    - Maps: ivac2/maps.md
+    - Presets & Insets: ivac2/presets.md
+    - Labels: ivac2/labels.md
+    - ATC Info Box: ivac2/atcinfo.md
+    - DCL Datalink Clearance: ivac2/dcl.md
+    - Next Frequency: ivac2/nextfreq.md
