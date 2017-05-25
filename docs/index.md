@@ -1,4 +1,4 @@
-# Welcome to IVAO Switzerland<small> ATC Doc</small>
+# Welcome to IVAO Switzerland Documentation
 
 Do not forget to also view our website [ivao.ch](http://ivao.ch).
 
