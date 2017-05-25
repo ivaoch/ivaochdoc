@@ -252,3 +252,48 @@ A double click on the callsign will assume or transfer the label to the controll
 **AFL** is the actual Flight Level.
 
 **ROCD** is the actual Rate Of Climb/Descent.
+
+##Sector Abreviations used
+
+<u>Switzerland</u>
+
+ZRH = Zurich
+
+GVA = Geneva
+
+BRN = Bern
+
+ACH = St-Gallen Altenrhein
+
+SIR = Sion
+
+SMV = Samedan
+
+LUG = Lugano
+
+SMV = Samedan
+
+ZHI = Grenchen
+
+ZHW = Les Eplatures
+
+
+<u>Neighbours</u>
+
+PAR = Paris Control
+
+REI = Reims Control
+
+MAR = Marseille Control
+
+LAN = Langen Radar
+
+RHE = Rhein Radar
+
+MUC = Munchen Radar
+
+MIL = Milano Radar
+
+PAD = Padova Radar
+
+BSL = Basel
