@@ -1,8 +1,8 @@
-##Maps
 Let’s start with the Maps menu, which looks like this:
 
-![MAPS](ivac2/images/maps.png)
-
+<p align="center">
+  <img src="maps.png">
+</p>
 The Maps menu is ordered as follows:
 
 -	First line: Basic maps and FIR maps
@@ -35,3 +35,6 @@ What will you find inside ?
 **MIL**: Military sectors
 
 **LSxx**: Airport specific maps, the format and the names of the maps are standard across all airports.
+
+
+If a text has been programmed for a specific map, you can display it using the "T" next to the map name.
