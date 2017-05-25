@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to IVAO Switzerland\n ATC Doc\n\u00b6\n\n\nDo not forget to also view our website \nivao.ch\n.",
+            "text": "Welcome to IVAO Switzerland Documentation\n\u00b6\n\n\nDo not forget to also view our website \nivao.ch\n.",
             "title": "Index"
         },
         {
-            "location": "/#welcome-to-ivao-switzerland-atc-doc",
+            "location": "/#welcome-to-ivao-switzerland-documentation",
             "text": "Do not forget to also view our website  ivao.ch .",
-            "title": "Welcome to IVAO Switzerland ATC Doc"
+            "title": "Welcome to IVAO Switzerland Documentation"
         },
         {
             "location": "/ivac2/introduction/",
