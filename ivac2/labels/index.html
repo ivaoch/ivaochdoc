@@ -943,7 +943,7 @@
 <p><u>What has been customized ?</u></p>
 <p>First of all, the symbols of the track are different depending on different situations (VFR, IFR, concerned, and so on).</p>
 <p>Then, you have to know that we have 2 label formats in Switzerland. </p>
-<p>One is for ACC Control, the other for Arrival/Departure Control. 
+<p>One is for Enroute Control, the other for Arrival/Departure Control. 
 The Ground labels are common for both definitions, they are composed of following categories:</p>
 <ul>
 <li>
@@ -1002,7 +1002,7 @@ The Ground labels are common for both definitions, they are composed of followin
 <p><u>Need to know</u></p>
 <p><strong>RWY</strong>, <strong>SID</strong> and <strong>ASSR</strong> are filled in automatically as soon as you use the DCL Tool (Datalink clearance).</p>
 <p><strong>DGATE</strong> is optional, you can fill it in if you want but it is not mandatory.</p>
-<p><strong>next</strong> has to be set by you if the next controller is online, otherwise the transfer of label will not work. If there is no controller online, you can leave it blank and release the traffic on UNICOM as soon as he is leaving your sector.</p>
+<p><strong>next</strong> will display the next controller position name or frequency (see NEXT FREQ paragraph). It has to be set by you if the next controller is online, otherwise the transfer of label will not work. If there is no controller online, you can leave it blank and release the traffic on UNICOM when needed.</p>
 <p><strong>assr</strong> is the assigned transponder, which you entered into the DCL Tool</p>
 <h2 id="ground-arrival-traffic">Ground Arrival traffic<a class="headerlink" href="#ground-arrival-traffic" title="Permanent link">&para;</a></h2>
 <p><u>Basic actions:</u></p>
@@ -1012,14 +1012,14 @@ The Ground labels are common for both definitions, they are composed of followin
 <p><img alt="Ground Arrival" src="../labels/ground_arr.jpg" /></p>
 <p><u>Need to know</u></p>
 <p><strong>AGATE</strong> is optional, you can fill it in if you want but it is not mandatory.</p>
-<p><strong>next</strong> has to be set by you if the next ground controller is online, otherwise the transfer of label will not work. If there is no controller online, you can leave it blank and release the traffic on UNICOM when needed.</p>
+<p><strong>next</strong> will display the next controller position name or frequency (see NEXT FREQ paragraph). It has to be set by you if the next controller is online, otherwise the transfer of label will not work. If there is no controller online, you can leave it blank and release the traffic on UNICOM when needed.</p>
 <h2 id="ground-vehicle">Ground Vehicle<a class="headerlink" href="#ground-vehicle" title="Permanent link">&para;</a></h2>
 <p>Not used in Switzerland for the moment</p>
 <h2 id="airborne-psr">Airborne psr<a class="headerlink" href="#airborne-psr" title="Permanent link">&para;</a></h2>
 <p><u>Basic actions:</u></p>
-<p>A left mouse click on the callsign will open the callsign menu</p>
-<p>Right mouse click unused</p>
-<p>Double click unused</p>
+<p>A left mouse click on the callsign will open the callsign menu.</p>
+<p>Right mouse click unused.</p>
+<p>Double click unused.</p>
 <p><img src="airborne_psr.jpg"></p>
 <p><u>Need to know</u></p>
 <p>The <strong>psr</strong> label will only show <strong>STBY</strong>, to indicate that the transponder is either standby or off. You can perform no action on this label, except open the callsign menu.</p>
@@ -1027,39 +1027,64 @@ The Ground labels are common for both definitions, they are composed of followin
 <p><u>Basic actions:</u></p>
 <p>A left mouse click on the callsign will open the callsign menu.</p>
 <p>A right mouse click on the callsign will draw the route filled in the flightplan, using the centralized AIRAC Data.</p>
-<p>A double click on the callsign will assume or transfer the label to the controller set as “next”.</p>
+<p>A double click on the callsign will assume the label.</p>
 <p><img src="airborne_def_format.jpg"></p>
 <p><img src="airborne_def.jpg"> <img src="airborne_def_ex.jpg"></p>
 <p><u>Need to know</u></p>
+<p><strong>AFL</strong> is the actual Flight Level.</p>
+<p><strong>ROCD</strong> is the actual Rate Of Climb/Descent.</p>
 <p><strong>SI</strong> will display the controller that assumed the traffic, in this example it is PAR (Paris). It will always display the IATA Code of the airfield (ZRH = Zurich, GVA = Geneva, BRN = Bern, etc...) or a 3 letter code for ACC sectors (PAR = Paris, LAN = Langen, PAD = Padova, MIL = Milano, MAR = Marseille).</p>
 <h2 id="airborne-concerned">Airborne concerned<a class="headerlink" href="#airborne-concerned" title="Permanent link">&para;</a></h2>
 <p><u>Basic actions:</u></p>
-<p>A left mouse click on the callsign </p>
-<p>A right mouse click on the callsign </p>
-<p>A double click on the callsign will assume or transfer the label to the controller set as “next”.</p>
-<p><img alt="description" src="???.jpg" /></p>
+<p>A left mouse click on the callsign will open the callsign menu.</p>
+<p>A right mouse click on the callsign will draw the route filled in the flightplan, using the centralized AIRAC Data.</p>
+<p>A double click on the callsign will assume the label.</p>
+<p><img src="airborne_concerned_format.jpg"></p>
 <p><u>Need to know</u></p>
+<p><strong>AFL</strong> is the actual Flight Level.</p>
+<p><strong>ROCD</strong> is the actual Rate Of Climb/Descent.</p>
+<p><strong>SI</strong> will display the controller that assumed the traffic, in this example it is PAR (Paris). It will always display the IATA Code of the airfield (ZRH = Zurich, GVA = Geneva, BRN = Bern, etc...) or a 3 letter code for ACC sectors (PAR = Paris, LAN = Langen, PAD = Padova, MIL = Milano, MAR = Marseille).</p>
+<p><strong>next</strong> will display your position, as you are set as the "next" controller.</p>
+<p><strong>PEL</strong> will display the sector entry level, which is the level at which the traffic will enter into your sector as cleared by the previous controller.</p>
 <h2 id="airborne-assumed">Airborne assumed<a class="headerlink" href="#airborne-assumed" title="Permanent link">&para;</a></h2>
 <p><u>Basic actions:</u></p>
-<p>A left mouse click on the callsign </p>
-<p>A right mouse click on the callsign </p>
-<p>A double click on the callsign will assume or transfer the label to the controller set as “next”.</p>
-<p><img alt="description" src="???.jpg" /></p>
+<p>A left mouse click on the callsign will open the callsign menu.</p>
+<p>A right mouse click on the callsign will open the flightplan.</p>
+<p>A double click on the callsign will transfer the label to the controller set as “next”.</p>
+<p><img src="airborne_assumed_format.jpg"></p>
+<p><img src="airborne_assumed.jpg"> <img src="airborne_assumed_ex.jpg"></p>
 <p><u>Need to know</u></p>
+<p><strong>AFL</strong> is the actual Flight Level.</p>
+<p><strong>ROCD</strong> is the actual Rate Of Climb/Descent.</p>
+<p><strong>ASP</strong> is the assigned speed. Left click on ASP to assign a speed or mach number.</p>
+<p><strong>next</strong> will display the next controller position name or frequency (see NEXT FREQ paragraph). It has to be set by you if the next controller is online, otherwise the transfer of label will not work. If there is no controller online, you can leave it blank and release the traffic on UNICOM when needed.</p>
+<p><strong>XPT</strong> is the transfer waypoint, which is the waypoint where the traffic will leave your sector (according to LOA). Right click on XPT to draw the route filled in the flightplan.</p>
+<p><strong>XFL</strong> is the transfer Flight Level, which is the FL at which the traffic has to be when leaving your sector (according to LOA).</p>
+<p><strong>CFL</strong> is the cleared FL. Left click on CFL to assign a FL.</p>
+<p><strong>CWP</strong> is the cleared waypoint. Left click on CWP to assign a waypoint.</p>
+<p><strong>SID</strong> will display the cleared SID. It will only display a SID if a it has been set via the DCL Tool.</p>
 <h2 id="airborne-filtered">Airborne filtered<a class="headerlink" href="#airborne-filtered" title="Permanent link">&para;</a></h2>
 <p><u>Basic actions:</u></p>
-<p>A left mouse click on the callsign </p>
-<p>A right mouse click on the callsign </p>
-<p>A double click on the callsign will assume or transfer the label to the controller set as “next”.</p>
-<p><img alt="description" src="???.jpg" /></p>
+<p>A left mouse click on the callsign will open the callsign menu.</p>
+<p>A right mouse click on the callsign will disply the flightplan.</p>
+<p>A double click on the callsign will assume the label.</p>
+<p><img src="airborne_filtered_format.jpg"></p>
+<p><img src="airborne_filtered.jpg"> <img src="airborne_filtered_ex.jpg"></p>
 <p><u>Need to know</u></p>
+<p><strong>AFL</strong> is the actual Flight Level.</p>
+<p><strong>IC</strong> is the climb/descent arrow.</p>
+<p><strong>SI</strong> will display the controller that assumed the traffic, in this example it is PAR (Paris). It will always display the IATA Code of the airfield (ZRH = Zurich, GVA = Geneva, BRN = Bern, etc...) or a 3 letter code for ACC sectors (PAR = Paris, LAN = Langen, PAD = Padova, MIL = Milano, MAR = Marseille).</p>
+<p><strong>next</strong> will display the next controller position name or frequency (see NEXT FREQ paragraph).</p>
 <h2 id="airborne-released">Airborne released<a class="headerlink" href="#airborne-released" title="Permanent link">&para;</a></h2>
 <p><u>Basic actions:</u></p>
-<p>A left mouse click on the callsign </p>
-<p>A right mouse click on the callsign </p>
+<p>A left mouse click on the callsign will open the callsign menu.</p>
+<p>A right mouse click on the callsign will draw the route filled in the flightplan, using the centralized AIRAC Data.</p>
 <p>A double click on the callsign will assume or transfer the label to the controller set as “next”.</p>
-<p><img alt="description" src="???.jpg" /></p>
+<p><img src="airborne_released_format.jpg"></p>
+<p><img src="airborne_released.jpg"> <img src="airborne_released_ex.jpg"></p>
 <p><u>Need to know</u></p>
+<p><strong>AFL</strong> is the actual Flight Level.</p>
+<p><strong>ROCD</strong> is the actual Rate Of Climb/Descent.</p>
                 
                   
                 
