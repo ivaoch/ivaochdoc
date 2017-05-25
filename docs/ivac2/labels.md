@@ -79,7 +79,7 @@ A double click on the callsign will assume or transfer the label to the controll
 
 ![Ground Departure](labels/ground_dep.jpg)
 
-<u>Functions</u>
+<u>Need to know</u>
 
 **RWY**, **SID** and **ASSR** are filled in automatically as soon as you use the DCL Tool (Datalink clearance).
 
@@ -101,7 +101,7 @@ A double click on the callsign will assume or transfer the label to the controll
 
 ![Ground Arrival](labels/ground_arr.jpg)
 
-<u>Functions</u>
+<u>Need to know</u>
 
 **AGATE** is optional, you can fill it in if you want but it is not mandatory.
 
@@ -121,23 +121,29 @@ Right mouse click unused
 
 Double click unused
 
-![description](???.jpg)
+<img src="airborne_psr.jpg">
 
-<u>Functions</u>
+<u>Need to know</u>
+
+The **psr** label will only show **STBY**, to indicate that the transponder is either standby or off. You can perform no action on this label, except open the callsign menu.
 
 ##Airborne default
 
 <u>Basic actions:</u>
 
-A left mouse click on the callsign 
+A left mouse click on the callsign will open the callsign menu.
 
-A right mouse click on the callsign 
+A right mouse click on the callsign will draw the route filled in the flightplan, using the centralized AIRAC Data.
 
 A double click on the callsign will assume or transfer the label to the controller set as “next”.
 
-![description](???.jpg)
+<img src="airborne_def_format.jpg">
 
-<u>Functions</u>
+<img src="airborne_def.jpg"> <img src="airborne_def_ex.jpg">
+ 
+<u>Need to know</u>
+
+**SI** will display the controller that assumed the traffic, in this example it is PAR (Paris). It will always display the IATA Code of the airfield (ZRH = Zurich, GVA = Geneva, BRN = Bern, etc...) or a 3 letter code for ACC sectors (PAR = Paris, LAN = Langen, PAD = Padova, MIL = Milano, MAR = Marseille).
 
 ##Airborne concerned
 
@@ -151,7 +157,7 @@ A double click on the callsign will assume or transfer the label to the controll
 
 ![description](???.jpg)
 
-<u>Functions</u>
+<u>Need to know</u>
 
 ##Airborne assumed
 
@@ -165,7 +171,7 @@ A double click on the callsign will assume or transfer the label to the controll
 
 ![description](???.jpg)
 
-<u>Functions</u>
+<u>Need to know</u>
 
 ##Airborne filtered
 
@@ -179,7 +185,7 @@ A double click on the callsign will assume or transfer the label to the controll
 
 ![description](???.jpg)
 
-<u>Functions</u>
+<u>Need to know</u>
 
 ##Airborne released
 
@@ -194,4 +200,4 @@ A double click on the callsign will assume or transfer the label to the controll
 
 ![description](???.jpg)
 
-<u>Functions</u>
+<u>Need to know</u>
