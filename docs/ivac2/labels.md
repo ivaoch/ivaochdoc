@@ -15,7 +15,7 @@ First of all, the symbols of the track are different depending on different situ
 
 Then, you have to know that we have 2 label formats in Switzerland. 
 
-One is for ACC Control, the other for Arrival/Departure Control. 
+One is for Enroute Control, the other for Arrival/Departure Control. 
 The Ground labels are common for both definitions, they are composed of following categories:
 
 -	Ground Default
@@ -85,7 +85,7 @@ A double click on the callsign will assume or transfer the label to the controll
 
 **DGATE** is optional, you can fill it in if you want but it is not mandatory.
 
-**next** has to be set by you if the next controller is online, otherwise the transfer of label will not work. If there is no controller online, you can leave it blank and release the traffic on UNICOM as soon as he is leaving your sector.
+**next** will display the next controller position name or frequency (see NEXT FREQ paragraph). It has to be set by you if the next controller is online, otherwise the transfer of label will not work. If there is no controller online, you can leave it blank and release the traffic on UNICOM when needed.
 
 **assr** is the assigned transponder, which you entered into the DCL Tool
 
@@ -105,7 +105,7 @@ A double click on the callsign will assume or transfer the label to the controll
 
 **AGATE** is optional, you can fill it in if you want but it is not mandatory.
 
-**next** has to be set by you if the next ground controller is online, otherwise the transfer of label will not work. If there is no controller online, you can leave it blank and release the traffic on UNICOM when needed.
+**next** will display the next controller position name or frequency (see NEXT FREQ paragraph). It has to be set by you if the next controller is online, otherwise the transfer of label will not work. If there is no controller online, you can leave it blank and release the traffic on UNICOM when needed.
 
 ##Ground Vehicle
 
@@ -115,11 +115,11 @@ Not used in Switzerland for the moment
 
 <u>Basic actions:</u>
 
-A left mouse click on the callsign will open the callsign menu
+A left mouse click on the callsign will open the callsign menu.
 
-Right mouse click unused
+Right mouse click unused.
 
-Double click unused
+Double click unused.
 
 <img src="airborne_psr.jpg">
 
@@ -135,7 +135,7 @@ A left mouse click on the callsign will open the callsign menu.
 
 A right mouse click on the callsign will draw the route filled in the flightplan, using the centralized AIRAC Data.
 
-A double click on the callsign will assume or transfer the label to the controller set as “next”.
+A double click on the callsign will assume the label.
 
 <img src="airborne_def_format.jpg">
 
@@ -143,61 +143,112 @@ A double click on the callsign will assume or transfer the label to the controll
  
 <u>Need to know</u>
 
+**AFL** is the actual Flight Level.
+
+**ROCD** is the actual Rate Of Climb/Descent.
+
 **SI** will display the controller that assumed the traffic, in this example it is PAR (Paris). It will always display the IATA Code of the airfield (ZRH = Zurich, GVA = Geneva, BRN = Bern, etc...) or a 3 letter code for ACC sectors (PAR = Paris, LAN = Langen, PAD = Padova, MIL = Milano, MAR = Marseille).
 
 ##Airborne concerned
 
 <u>Basic actions:</u>
 
-A left mouse click on the callsign 
+A left mouse click on the callsign will open the callsign menu.
 
-A right mouse click on the callsign 
+A right mouse click on the callsign will draw the route filled in the flightplan, using the centralized AIRAC Data.
 
-A double click on the callsign will assume or transfer the label to the controller set as “next”.
+A double click on the callsign will assume the label.
 
-![description](???.jpg)
+<img src="airborne_concerned_format.jpg">
 
 <u>Need to know</u>
+
+**AFL** is the actual Flight Level.
+
+**ROCD** is the actual Rate Of Climb/Descent.
+
+**SI** will display the controller that assumed the traffic, in this example it is PAR (Paris). It will always display the IATA Code of the airfield (ZRH = Zurich, GVA = Geneva, BRN = Bern, etc...) or a 3 letter code for ACC sectors (PAR = Paris, LAN = Langen, PAD = Padova, MIL = Milano, MAR = Marseille).
+
+**next** will display your position, as you are set as the "next" controller.
+
+**PEL** will display the sector entry level, which is the level at which the traffic will enter into your sector as cleared by the previous controller.
 
 ##Airborne assumed
 
 <u>Basic actions:</u>
 
-A left mouse click on the callsign 
+A left mouse click on the callsign will open the callsign menu.
 
-A right mouse click on the callsign 
+A right mouse click on the callsign will open the flightplan.
 
-A double click on the callsign will assume or transfer the label to the controller set as “next”.
+A double click on the callsign will transfer the label to the controller set as “next”.
 
-![description](???.jpg)
+<img src="airborne_assumed_format.jpg">
+
+<img src="airborne_assumed.jpg"> <img src="airborne_assumed_ex.jpg">
 
 <u>Need to know</u>
+
+**AFL** is the actual Flight Level.
+
+**ROCD** is the actual Rate Of Climb/Descent.
+
+**ASP** is the assigned speed. Left click on ASP to assign a speed or mach number.
+
+**next** will display the next controller position name or frequency (see NEXT FREQ paragraph). It has to be set by you if the next controller is online, otherwise the transfer of label will not work. If there is no controller online, you can leave it blank and release the traffic on UNICOM when needed.
+
+**XPT** is the transfer waypoint, which is the waypoint where the traffic will leave your sector (according to LOA). Right click on XPT to draw the route filled in the flightplan.
+
+**XFL** is the transfer Flight Level, which is the FL at which the traffic has to be when leaving your sector (according to LOA).
+
+**CFL** is the cleared FL. Left click on CFL to assign a FL.
+
+**CWP** is the cleared waypoint. Left click on CWP to assign a waypoint.
+
+**SID** will display the cleared SID. It will only display a SID if a it has been set via the DCL Tool.
 
 ##Airborne filtered
 
 <u>Basic actions:</u>
 
-A left mouse click on the callsign 
+A left mouse click on the callsign will open the callsign menu.
 
-A right mouse click on the callsign 
+A right mouse click on the callsign will disply the flightplan.
 
-A double click on the callsign will assume or transfer the label to the controller set as “next”.
+A double click on the callsign will assume the label.
 
-![description](???.jpg)
+<img src="airborne_filtered_format.jpg">
+
+<img src="airborne_filtered.jpg"> <img src="airborne_filtered_ex.jpg">
 
 <u>Need to know</u>
+
+**AFL** is the actual Flight Level.
+
+**IC** is the climb/descent arrow.
+
+**SI** will display the controller that assumed the traffic, in this example it is PAR (Paris). It will always display the IATA Code of the airfield (ZRH = Zurich, GVA = Geneva, BRN = Bern, etc...) or a 3 letter code for ACC sectors (PAR = Paris, LAN = Langen, PAD = Padova, MIL = Milano, MAR = Marseille).
+
+**next** will display the next controller position name or frequency (see NEXT FREQ paragraph).
+
 
 ##Airborne released
 
 
 <u>Basic actions:</u>
 
-A left mouse click on the callsign 
+A left mouse click on the callsign will open the callsign menu.
 
-A right mouse click on the callsign 
+A right mouse click on the callsign will draw the route filled in the flightplan, using the centralized AIRAC Data.
 
 A double click on the callsign will assume or transfer the label to the controller set as “next”.
 
-![description](???.jpg)
+<img src="airborne_released_format.jpg">
+
+<img src="airborne_released.jpg"> <img src="airborne_released_ex.jpg">
 
 <u>Need to know</u>
+
+**AFL** is the actual Flight Level.
+
+**ROCD** is the actual Rate Of Climb/Descent.
