@@ -82,5 +82,6 @@ pages:
     - Labels: ivac2/labels.md
     - ATC Info Box: ivac2/atcinfo.md
     - DCL Datalink Clearance: ivac2/dcl.md
-    - Next Frequency: ivac2/nextfreq.md
+    - Options: ivac2/options.md
+    - FAQ: ivac2/faq.md
   - Contribute: contribute/index.md
