@@ -22,13 +22,8 @@
         },
         {
             "location": "/ivac2/presets/",
-            "text": "Presets & Insets\n\u00b6",
+            "text": "Work In Progress",
             "title": "Presets & Insets"
-        },
-        {
-            "location": "/ivac2/presets/#presets-insets",
-            "text": "",
-            "title": "Presets &amp; Insets"
         },
         {
             "location": "/ivac2/labels/",
@@ -122,23 +117,48 @@
         },
         {
             "location": "/ivac2/dcl/",
-            "text": "DCL (Datalink Clearance) Handling\n\u00b6",
+            "text": "DCL (Datalink Clearance) Handling\n\u00b6\n\n\nWork In Progress",
             "title": "DCL Datalink Clearance"
         },
         {
             "location": "/ivac2/dcl/#dcl-datalink-clearance-handling",
-            "text": "",
+            "text": "Work In Progress",
             "title": "DCL (Datalink Clearance) Handling"
         },
         {
-            "location": "/ivac2/nextfreq/",
-            "text": "Next Frequency Option\n\u00b6",
-            "title": "Next Frequency"
+            "location": "/ivac2/options/",
+            "text": "On this page, you will find some usefull options we recommend you to use when controlling in Switzerland. They are not mandatory, but recommended.\n\n\nNEXT FREQ\n\u00b6\n\n\nIn IVAC2, you have to enter a \"next\" position in the label in order to perform a transfer to the next controller. \n\n\nOnce you entered the \"next\" position, the label is indicating the position name by default, like this:\n\n\n\n\nWe recommend you to activate the NEXT FREQ option, which you can find into DISPLAY > NEXT FREQ.\n\n\nWhat will it change ? \n\n\nInstead of seeing the name, you will see the frequency of it. This is very usefull as you won't have to check the frequency each time in the ATC box, and thus transfer the traffic in a more efficient way.\nThis is how it looks like:\n\n\n\n\nOf course the same applies to the ground labels.\n\n\nBRT\n\u00b6\n\n\nThe maps are not customizable, but you can still changes its brightness by using the BRT option.\n\n\nOnce open, you will be able to change the brightness of different maps using the sliders. Don't hesitate to use it, as it may be usefull when having different lighting conditions in your room.",
+            "title": "Options"
         },
         {
-            "location": "/ivac2/nextfreq/#next-frequency-option",
-            "text": "",
-            "title": "Next Frequency Option"
+            "location": "/ivac2/options/#next-freq",
+            "text": "In IVAC2, you have to enter a \"next\" position in the label in order to perform a transfer to the next controller.   Once you entered the \"next\" position, the label is indicating the position name by default, like this:   We recommend you to activate the NEXT FREQ option, which you can find into DISPLAY > NEXT FREQ.  What will it change ?   Instead of seeing the name, you will see the frequency of it. This is very usefull as you won't have to check the frequency each time in the ATC box, and thus transfer the traffic in a more efficient way.\nThis is how it looks like:   Of course the same applies to the ground labels.",
+            "title": "NEXT FREQ"
+        },
+        {
+            "location": "/ivac2/options/#brt",
+            "text": "The maps are not customizable, but you can still changes its brightness by using the BRT option.  Once open, you will be able to change the brightness of different maps using the sliders. Don't hesitate to use it, as it may be usefull when having different lighting conditions in your room.",
+            "title": "BRT"
+        },
+        {
+            "location": "/ivac2/faq/",
+            "text": "This page will be completed on a regular basis, according to the questions of the members.\n\n\nI don't see traffic on ground when SQWK is SBY\n\u00b6\n\n\nIn order to see the aircrafts having their squawk on SBY, you need to change your display options.\nGo on DISPLAY, and click on PSR.",
+            "title": "FAQ"
+        },
+        {
+            "location": "/ivac2/faq/#i-dont-see-traffic-on-ground-when-sqwk-is-sby",
+            "text": "In order to see the aircrafts having their squawk on SBY, you need to change your display options.\nGo on DISPLAY, and click on PSR.",
+            "title": "I don't see traffic on ground when SQWK is SBY"
+        },
+        {
+            "location": "/contribute/",
+            "text": "Requirements:\n\u00b6\n\n\n\n\nPython 3.6.1\n\n\nGit\n\n\nGitHub Desktop\n\n\nGit",
+            "title": "Contribute"
+        },
+        {
+            "location": "/contribute/#requirements",
+            "text": "Python 3.6.1  Git  GitHub Desktop  Git",
+            "title": "Requirements:"
         }
     ]
 }

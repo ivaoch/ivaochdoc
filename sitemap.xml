@@ -4,7 +4,7 @@
     
     <url>
      <loc>https://ivaoch.github.io/ivaochdoc//</loc>
-     <lastmod>2017-05-25</lastmod>
+     <lastmod>2017-06-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -13,46 +13,60 @@
         
     <url>
      <loc>https://ivaoch.github.io/ivaochdoc//ivac2/introduction/</loc>
-     <lastmod>2017-05-25</lastmod>
+     <lastmod>2017-06-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://ivaoch.github.io/ivaochdoc//ivac2/maps/</loc>
-     <lastmod>2017-05-25</lastmod>
+     <lastmod>2017-06-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://ivaoch.github.io/ivaochdoc//ivac2/presets/</loc>
-     <lastmod>2017-05-25</lastmod>
+     <lastmod>2017-06-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://ivaoch.github.io/ivaochdoc//ivac2/labels/</loc>
-     <lastmod>2017-05-25</lastmod>
+     <lastmod>2017-06-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://ivaoch.github.io/ivaochdoc//ivac2/atcinfo/</loc>
-     <lastmod>2017-05-25</lastmod>
+     <lastmod>2017-06-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://ivaoch.github.io/ivaochdoc//ivac2/dcl/</loc>
-     <lastmod>2017-05-25</lastmod>
+     <lastmod>2017-06-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://ivaoch.github.io/ivaochdoc//ivac2/nextfreq/</loc>
-     <lastmod>2017-05-25</lastmod>
+     <loc>https://ivaoch.github.io/ivaochdoc//ivac2/options/</loc>
+     <lastmod>2017-06-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>https://ivaoch.github.io/ivaochdoc//ivac2/faq/</loc>
+     <lastmod>2017-06-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>https://ivaoch.github.io/ivaochdoc//contribute/</loc>
+     <lastmod>2017-06-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
     
 
 </urlset>
