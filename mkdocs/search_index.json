@@ -22,8 +22,23 @@
         },
         {
             "location": "/ivac2/presets/",
-            "text": "Work In Progress",
+            "text": "Work In Progress\n\n\nGeneral presets\n\u00b6\n\n\nFirst of all, we recommend you to click on ADD COLUMN and ADD GROUP, which you can find by clicking on the 3 horizontal dashes.\nThe PRESETS menu will then look a bit more compact.\n\n\n\n\nThen, we created some group of presets according to the main airports and positions.\n\n\n\n\nIn GENERAL, you will find a CLEAR and a DEFAULT preset. \n\n\nCLEAR: all the maps will be deselected and you will only see an empty radar screen.\n\n\nDEFAULT: the default preset will be loaded, you can use it for Oberver mode for example.\n\n\nSpecific presets\n\u00b6\n\n\nFor the main airports (LSZH and LSGG), we created a preset for the different approaches.\n\n\nSo if you need to change the runway configuration, just click on the appropriate preset.\n\n\n\n\nProgrammed insets\n\u00b6\n\n\nWe also created some programmed insets for the airports. This is usefull when you have an aircraft connected on a smaller airport; you can then just open the corresponding preset and you will see the ground layout of the airport.\n\n\n\n\nFor example, this is the programmed inset for Bern LSZB and Friedrichshafen EDNY.",
             "title": "Presets & Insets"
+        },
+        {
+            "location": "/ivac2/presets/#general-presets",
+            "text": "First of all, we recommend you to click on ADD COLUMN and ADD GROUP, which you can find by clicking on the 3 horizontal dashes.\nThe PRESETS menu will then look a bit more compact.   Then, we created some group of presets according to the main airports and positions.   In GENERAL, you will find a CLEAR and a DEFAULT preset.   CLEAR: all the maps will be deselected and you will only see an empty radar screen.  DEFAULT: the default preset will be loaded, you can use it for Oberver mode for example.",
+            "title": "General presets"
+        },
+        {
+            "location": "/ivac2/presets/#specific-presets",
+            "text": "For the main airports (LSZH and LSGG), we created a preset for the different approaches.  So if you need to change the runway configuration, just click on the appropriate preset.",
+            "title": "Specific presets"
+        },
+        {
+            "location": "/ivac2/presets/#programmed-insets",
+            "text": "We also created some programmed insets for the airports. This is usefull when you have an aircraft connected on a smaller airport; you can then just open the corresponding preset and you will see the ground layout of the airport.   For example, this is the programmed inset for Bern LSZB and Friedrichshafen EDNY.",
+            "title": "Programmed insets"
         },
         {
             "location": "/ivac2/labels/",
